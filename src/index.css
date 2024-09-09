@@ -349,3 +349,43 @@ ol {
     transform: scale(1);
   }
 }
+
+/* mobile css */
+
+@media(max-width:600px){
+  h1{
+    font-size: 2rem;
+  }
+  #game-container{
+    padding: 1rem;
+  }
+  #game-board{
+    gap: 1rem;
+  }
+  #game-board ol{
+    gap: 1rem;
+  }
+  #game-board button{
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  #players{
+    gap: 1rem;
+  }
+  #game-board button{
+    font-size: 3rem;
+  }
+  .player-name, .player input{
+    width: 5rem;
+  }
+  #players li{
+    flex-direction: column;
+    width: auto;
+  }
+  .player-name{
+    padding: 0px;
+  }
+  #players button{
+    margin-bottom: 0.5rem;
+  }
+}

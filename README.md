@@ -38,6 +38,6 @@ npm install
 - **Winning Combinations**: The game checks for winning combinations after each move.
 - **Draw**: The game detects a draw if all squares are filled without a winner.
 
-##Contributing
+## Contributing
 
 Feel free to contribute to this project by submitting issues or pull requests. Contributions are always welcome!
